@@ -1,0 +1,35 @@
+.button {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+.button:hover {
+  background: rgba(255, 255, 255, 0.8);
+  transform: scale(1.05);
+}
+
+.icon svg {
+  height: 20px;
+  width: 20px;
+  color: #111;
+}
+span:nth-child(2) {
+  font-size: 16px;
+}
+.count {
+  background-color: #111;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
