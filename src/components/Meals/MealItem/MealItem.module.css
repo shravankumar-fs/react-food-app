@@ -3,6 +3,9 @@
   border-bottom: 2px solid #1112;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .description {
   font-style: italic;
