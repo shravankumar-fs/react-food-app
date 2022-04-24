@@ -6,4 +6,9 @@
   background-color: #111;
   color: white;
   padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.formClass button:hover {
+  transform: scale(1.02);
 }

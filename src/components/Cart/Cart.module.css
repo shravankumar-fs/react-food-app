@@ -1,0 +1,39 @@
+ul {
+  padding: 0;
+}
+.CartItems {
+  overflow: scroll;
+  max-height: 400px;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  font-size: large;
+  font-weight: 800;
+}
+.total .price {
+  color: darkred;
+}
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.actions button {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.actions button.btnClose {
+  background-color: gray;
+}
+.actions button:hover,
+.actions button:active {
+  background-color: darkred;
+  transform: scale(1.05);
+}
